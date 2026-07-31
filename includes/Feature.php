@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace SangPortfolio;
+namespace SangPortfolio\WordpressMultisiteManager;
 if (! defined('ABSPATH')) { exit; }
-final class WordpressMultisiteManagerFeature {
+final class Feature {
     private const OPTION = 'wordpress_multisite_manager_enabled';
     private const SLUG = 'wordpress-multisite-manager';
     private const TITLE = 'WordPress Multisite Manager';
